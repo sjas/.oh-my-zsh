@@ -5,8 +5,8 @@ RPROMPT='$(git_prompt_status) $(git_prompt_info)'
 #git_prompt_info
     ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[cyan]%}%{$reset_color%}%{$fg_bold[white]%}"
     ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg_bold[cyan]%}%{$reset_color%}"
-     ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%} ✖ "
-     ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%} ✔ "
+     ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%} ♠"
+     ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%} ♣"
 
 #git_prompt_status
 # ?? 
@@ -31,9 +31,9 @@ RPROMPT='$(git_prompt_status) $(git_prompt_info)'
 # ## .*behind
     ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_bold[cyan]%}--"
 # ## .*diverged
-  ZSH_THEME_GIT_PROMPT_DIVERGED="%{$fg_bold[cyan]%}➟ "
+  ZSH_THEME_GIT_PROMPT_DIVERGED="%{$fg_bold[cyan]%}->"
 #stash present
-   ZSH_THEME_GIT_PROMPT_STASHED="%{$fg_bold[yellow]%}✱ "
+   ZSH_THEME_GIT_PROMPT_STASHED="%{$fg_bold[yellow]%}#"
 
 #More symbols to choose from:
 #stolen from 'wedisagree' theme
