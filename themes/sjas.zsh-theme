@@ -33,7 +33,7 @@ RPROMPT='$(git_prompt_status) $(git_prompt_info)'
 # ## .*diverged
   ZSH_THEME_GIT_PROMPT_DIVERGED="%{$fg_bold[cyan]%}->"
 #stash present
-   ZSH_THEME_GIT_PROMPT_STASHED="%{$fg_bold[yellow]%}#"
+   ZSH_THEME_GIT_PROMPT_STASHED="%{$fg_bold[cyan]%}#"
 
 #More symbols to choose from:
 #stolen from 'wedisagree' theme
